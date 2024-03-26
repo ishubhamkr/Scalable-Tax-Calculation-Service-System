@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Scalable Tax Calculation Service System is a self-learning project aimed at developing a modular architecture for streamlined tax compliance. The system's key components include a Tax Rule Engine for interpreting tax regulations, Database Integration for storing transactional data and tax rules, Security Measures for protecting sensitive financial data, and Performance Optimization for enhancing system responsiveness.
+The Scalable Tax Calculation Service System is aimed at developing a modular architecture for streamlined tax compliance. The system's key components include a Tax Rule Engine for interpreting tax regulations, Database Integration for storing transactional data and tax rules, Security Measures for protecting sensitive financial data, and Performance Optimization for enhancing system responsiveness.
 
 ## Key Components
 
