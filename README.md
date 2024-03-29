@@ -1,4 +1,4 @@
-# Scalable Tax Calculation Service System
+# Scalable Tax Calculation Service System UI
 
 ## Project Overview
 
@@ -10,30 +10,32 @@ The Scalable Tax Calculation Service System is aimed at developing a modular arc
 
 The Tax Rule Engine interprets tax regulations and applies them to transactional data to calculate taxes accurately. It should be designed to handle complex tax rules efficiently and be easily extensible to accommodate future changes in tax regulations.
 
-### Database Integration
+## Setup Instructions
 
-Database Integration involves storing transactional data and tax rules in a database. MySQL and MongoDB are utilized for relational and NoSQL data storage, respectively. The database design should support scalability and data integrity while accommodating frequent updates to tax rules.
+1. **Install Node.js and npm**: Ensure that you have Node.js installed on your system, as it includes npm, a package manager for Node.js modules.
 
-### Security Measures
+2. **Clone the Repository**: Clone the repository containing the UI code onto your local machine.
 
-Security Measures are implemented to protect sensitive financial data. Basic encryption techniques are employed to encrypt sensitive data at rest and during transit. Access control mechanisms are implemented to ensure that only authorized users can access and modify the system's data.
+    ```bash
+    git clone <repository_url>
+    ```
 
-### Performance Optimization
+3. **Navigate to UI Directory**: Move into the directory containing the UI code.
 
-Performance Optimization techniques are applied to enhance the system's responsiveness and scalability. This includes optimizing database queries, caching frequently accessed data, and utilizing asynchronous processing where applicable. Performance testing using tools like JUnit and Mockito ensures that the system meets its performance requirements under varying load conditions.
+    ```bash
+    cd <ui_directory>
+    ```
 
-## Technologies Used
+4. **Install Dependencies**: Use yarn to install the required dependencies.
 
-- **Java**: Core programming language used for backend development.
-- **Spring Boot**: Framework for building robust and scalable Java applications.
-- **Dropwizard**: Lightweight framework for building RESTful web services.
-- **MySQL**: Relational database management system used for storing transactional data.
-- **MongoDB**: NoSQL database used for storing tax rules and other non-relational data.
-- **React.js**: JavaScript library used for building the user interface.
-- **Basic Encryption Techniques**: Utilized for securing sensitive financial data.
-- **JUnit**: Framework for writing and running unit tests in Java.
-- **Mockito**: Mocking framework used for unit testing.
+    ```bash
+    yarn install
+    ```
 
-## Conclusion
+5. **Run the UI**: Once the dependencies are installed, you can start the UI using yarn.
 
-The Scalable Tax Calculation Service System is designed to provide a flexible and scalable solution for tax compliance. By leveraging modular architecture and key technologies such as Java, Spring Boot, and React.js, the system aims to streamline tax calculation processes while ensuring security, performance, and compliance with tax regulations. Continuous learning and improvement are essential aspects of the project to adapt to evolving tax laws and business requirements.
+    ```bash
+    yarn start
+    ```
+
+6. **Access the UI**: After successfully starting the UI, you can access it in your web browser at the specified address (usually http://localhost:3000).
