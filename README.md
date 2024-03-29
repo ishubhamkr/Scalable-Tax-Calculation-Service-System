@@ -6,9 +6,9 @@ The Scalable Tax Calculation Service System is aimed at developing a modular arc
 
 ## Key Components
 
-### Tax Rule Engine
+### Tax Rule Engine UI
 
-The Tax Rule Engine interprets tax regulations and applies them to transactional data to calculate taxes accurately. It should be designed to handle complex tax rules efficiently and be easily extensible to accommodate future changes in tax regulations.
+The UI for the Scalable Tax Calculation Service System is developed using React.js, a JavaScript library known for building interactive user interfaces. The UI provides an intuitive platform for users to interact with the system's functionalities seamlessly. This repository contains the UI part of the project.
 
 ## Setup Instructions
 
